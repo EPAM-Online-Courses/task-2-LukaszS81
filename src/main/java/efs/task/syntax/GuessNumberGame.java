@@ -14,7 +14,7 @@ public class GuessNumberGame {
                 game = new GuessNumberGame("");
             }
             game.play();
-        } catch (NumberFormatException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }
