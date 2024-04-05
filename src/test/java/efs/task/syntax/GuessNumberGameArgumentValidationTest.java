@@ -10,7 +10,7 @@ import java.util.concurrent.atomic.AtomicReference;
 import static com.github.stefanbirkner.systemlambda.SystemLambda.tapSystemOut;
 import static org.assertj.core.api.SoftAssertions.assertSoftly;
 
-class GuessNumberGameArgumentValidationTest {
+class iGuessNumberGameArgumentValidationTest {
 
     @ParameterizedTest(name = "argument: \"{0}\"")
     @ValueSource(strings = {"", "abc", "0", "-1", "401"})
